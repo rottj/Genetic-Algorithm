@@ -128,13 +128,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Errors.h" />
+    <ClInclude Include="GeneticAlgorithm.h" />
     <ClInclude Include="Individual.h" />
     <ClInclude Include="KnapsackProblem.h" />
     <ClInclude Include="Problem.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="GeneticAlgorithm.cpp" />
     <ClCompile Include="Individual.cpp" />
     <ClCompile Include="KnapsackProblem.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
