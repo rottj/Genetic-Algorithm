@@ -128,10 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Errors.h" />
+    <ClInclude Include="Individual.h" />
     <ClInclude Include="KnapsackProblem.h" />
     <ClInclude Include="Problem.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Individual.cpp" />
     <ClCompile Include="KnapsackProblem.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
